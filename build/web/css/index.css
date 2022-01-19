@@ -1,0 +1,40 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: url(background.png) no-repeat;
+  background-size: cover;
+}
+
+.index-box{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: none;
+  width: 280px;
+  height: 280px;
+  padding: 5px;
+}
+
+.index-box center{
+  position: center;
+  font-size: 20px;
+  border-bottom: 6px;
+  padding: 13px 0;
+}
+
+.btn
+{
+  background: #b48395;
+  width: 100px;
+  height: 35px;
+  border: 2px solid #b48395;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+  margin: 12px 0;
+  font-size: 15px;
+}
